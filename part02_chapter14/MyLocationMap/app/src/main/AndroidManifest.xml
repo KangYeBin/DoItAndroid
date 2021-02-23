@@ -19,7 +19,7 @@
         https://console.developers.google.com/apis/ 에서 생성하기-->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAOnjrcw0swooUsX77FOkyJ0ZoujtezcUc" />
+            android:value="API KEY값 넣기" />
 
         <activity android:name=".MainActivity">
             <intent-filter>
