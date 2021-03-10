@@ -53,8 +53,8 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(manager);
 
         adapter = new FriendAdapter();
-        item1 = new FriendInfo("eyVOiO6qszQ:APA91bHQzKRDTK34jlhYn8rNeK3RVoH2HfrWjQRLqtCYCWR8lcykcgh4H5lpZWox61yvW6W4X4SpFDddX30KI-4SPjVQxlKEUozDvZbHtPGDja9ktPaZiGWkqR4dClBWY-xXxZiojbpc", "친구1", "010-1111-1111");
-        item2 = new FriendInfo("eyVOiO6qszQ:APA91bHQzKRDTK34jlhYn8rNeK3RVoH2HfrWjQRLqtCYCWR8lcykcgh4H5lpZWox61yvW6W4X4SpFDddX30KI-4SPjVQxlKEUozDvZbHtPGDja9ktPaZiGWkqR4dClBWY-xXxZiojbpc", "친구2", "010-2222-2222");
+        item1 = new FriendInfo("regId", "친구1", "010-1111-1111");
+        item2 = new FriendInfo("regId", "친구2", "010-2222-2222");
         adapter.addItem(item1);
         adapter.addItem(item2);
         friendNumber.setText(adapter.items.size() + "명");
